@@ -2,7 +2,7 @@
 
 Aplicación de tipo CRUD (Create, Read, Update & Delete) orientada a la gestión de empleados. 
 
-Para su uso es necesario la conexión a la API: 
+Para su uso es necesario la conexión a la API: https://github.com/JoaquinSumariva/API-Rest-w-MySQL-PHP
 Pueden configurar su uso dependiendo de el host de la misma en el archivo /src/services/api.js
 
 Para iniciar la aplicación:
