@@ -1,0 +1,6 @@
+@import './index';
+
+.app {
+  height: 90vh;
+  @extend %flexer;
+}

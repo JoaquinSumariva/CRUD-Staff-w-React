@@ -1,0 +1,8 @@
+@import '../index';
+
+#name-error, #email-error {
+  margin-top: 2px;
+  font-size: 15px;
+  color: $red;
+  text-align: start;
+}

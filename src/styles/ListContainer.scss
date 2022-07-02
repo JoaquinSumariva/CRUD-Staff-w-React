@@ -1,0 +1,11 @@
+@import '../index';
+
+.list-container {
+  min-width: 550px;
+  background-color: $bg-dark;
+  padding: 20px 10px 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(min-content);
+  grid-gap: 20px;
+}

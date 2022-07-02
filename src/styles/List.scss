@@ -1,0 +1,26 @@
+@import '../index';
+
+table {
+  border-collapse: collapse;
+  padding: 5px;
+  min-width: 500px;
+  th {
+    font-family: $title-font;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px $font-dark solid;
+    button {
+      font-family: $title-font;
+      font-size: 14px;
+      margin: 9px 3px;
+      padding: 5px;
+      border-radius: 3px;
+      color: $black;
+      background-color: $pink;
+      &:hover {
+        background-color: $pink-2;
+      }
+    }
+  }
+}

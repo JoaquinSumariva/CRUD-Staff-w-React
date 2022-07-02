@@ -1,0 +1,41 @@
+@import '../index';
+
+.addWorker {
+  font-family: $title-font;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  color: $black;
+  background-color: $green;
+  &:hover {
+    background-color: $green-2;
+  }
+}
+
+.action-button {
+  font-family: $title-font;
+  font-size: 14px;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 3px;
+  color: $black;
+  &:first-child {
+    background-color: $sky-blue;
+    &:hover {
+      background-color: $sky-blue-2
+    }
+  }
+}
+
+.cancel-btn {
+  font-family: $title-font;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin: 6px;
+  color: $black;
+  background-color: $pink;
+  &:hover {
+    background-color: $pink-2;
+  }
+}

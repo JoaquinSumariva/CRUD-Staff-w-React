@@ -1,0 +1,18 @@
+@import '../index';
+
+.not_found_page-container {
+  width: fit-content;
+  background-color: $bg-dark;
+  padding: 20px;
+  border-radius: 10px;
+  h3 {
+    margin: 2px 12px 22px 12px;
+  }
+  .not_found_page-link {
+    color: $font-dark;
+    &:hover {
+      text-decoration: underline;
+      color: $font-light;
+    }
+  }
+}

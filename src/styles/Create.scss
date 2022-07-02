@@ -1,0 +1,72 @@
+@import '../index';
+
+.form-container {
+  background-color: $bg-dark;
+  padding: 20px;
+  border-radius: 10px;
+  h2 {
+    font-family: $title-font;
+    margin: 10px 10px 20px
+  }
+  form {
+    .input-container {
+      text-align: start;
+      margin: 12px 0;
+      p {
+        font-size: 18px;
+        font-family: $title-font;
+        text-align: start;
+      }
+      input {
+        display: block;
+        text-align: center;
+        margin: 5px 0 0px;
+        font-size: 18px;
+        width: 100%;
+        padding: 5px;
+        text-align: start;
+        border-radius: 3px 3px 0 0;
+        background-color: $bg-light;
+        color: $font-dark;
+        &:hover, &:focus {
+          color: $font-light;
+          border-bottom: 1px solid $font-light;
+          margin-bottom: -1px;
+        }        
+      }
+      small {
+        color: $font-dark;
+      }
+    }
+    .btn-container {
+      text-align: start;
+      margin: 20px 0 8px;
+      button {
+        font-family: $title-font;
+        font-size: 14px;
+        padding: 10px 30px;
+        border-radius: 3px;
+        color: $black;
+        background-color: $green;
+        &:hover {
+          background-color: $green-2;
+        }
+      }
+    }
+    #success-text {
+      display: none;
+      color: $font-dark;
+      text-align: start;
+    }
+    #name-error, #email-error {
+      display: flex;
+    }
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px $bg-light inset;
+  -webkit-text-fill-color: $font-dark;
+}

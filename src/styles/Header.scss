@@ -1,0 +1,17 @@
+@import '../index';
+
+.header-container {
+  background-color: $bg-dark;
+  height: 40px;
+  @extend %flexer;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  a {
+    margin: 10px;
+    color: $font-light;
+    font-family: $title-font;
+    &:hover {
+      color: $font-dark
+    }
+  }
+}
